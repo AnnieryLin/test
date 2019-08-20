@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+	<style>
+	    html{
+	         height: 100%
+	    }
+	    .body{
+	        height: 100%;
+	        font-family:'Open Sans', sans-serif;
+	    }
+	    .left{
+	        float: left;
+	        width: 400px;
+	        height: 100%;
+	        /*解决IE6的3px-Bug*/
+	        /*IE6下当浮动元素与非浮动元素相邻时，3px的Bug就会出现，它会偏移3像素。*/
+	        _margin-right: -3px;
+	        background-color:crimson;
+	        border:  1px solid burlywood;
+	
+	    }
+	    .right{
+	        width: auto;
+	        height: 100%;
+	        background-color: forestgreen;
+	        border: 1px solid burlywood;
+	    }
+    </style>
+</head>
+<body>
+<div class="left">
+a<br/>
+b<br/>
+</div>
+<div class="right">
+hhhhhh
+</div>
+</body>
+</html>
